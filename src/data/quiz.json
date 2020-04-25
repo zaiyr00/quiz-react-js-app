@@ -1,0 +1,127 @@
+{
+  "title": {
+  "questions": [
+    {
+      "questionContent": "The default value of a static integer variable of a class in Java is",
+      "answers": [
+        {
+          "correct": true,
+          "answerContent": "0"
+        },
+        {
+          "correct": false,
+          "answerContent": "1"
+        },
+        {
+          "correct": false,
+          "answerContent": "Garbage value"
+        },
+        {
+          "correct": false,
+          "answerContent": "Null"
+        },
+        {
+          "correct": false,
+          "answerContent": "-1"
+        }
+      ]
+    },
+    {
+      "questionContent": "Multiple inheritance means",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "more classes inheriting from one super class"
+        },
+        {
+          "correct": true,
+          "answerContent": "one class inheriting from more super classes"
+        },
+        {
+          "correct": false,
+          "answerContent": "more classes inheriting from more super classes"
+        },
+        {
+          "correct": false,
+          "answerContent": "None of the above"
+        }
+      ]
+    },
+    {
+      "questionContent": "Which statement is not true in java language?",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "A public member of a class can be accessed in all the packages."
+        },
+        {
+          "correct": true,
+          "answerContent": "A private member of a class cannot be accessed by the methods of the same class."
+        },
+        {
+          "correct": false,
+          "answerContent": "A private member of a class cannot be accessed from its derived class."
+        },
+        {
+          "correct": false,
+          "answerContent": "A protected member of a class can be accessed from its derived class."
+        },
+        {
+          "correct": false,
+          "answerContent": "None of the above"
+        }
+      ]
+    },
+    {
+      "questionContent": "To prevent any method from overriding, we declare the method as",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "static"
+        },
+        {
+          "correct": false,
+          "answerContent": "const"
+        },
+        {
+          "correct": true,
+          "answerContent": "final"
+        },
+        {
+          "correct": false,
+          "answerContent": "abstract"
+        },
+        {
+          "correct": false,
+          "answerContent": "None of the above"
+        }
+      ]
+    },
+    {
+      "questionContent": "Which one of the following is not true?",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "A class containing abstract methods is called an abstract class."
+        },
+        {
+          "correct": false,
+          "answerContent": "Abstract methods should be implemented in the derived class."
+        },
+        {
+          "correct": true,
+          "answerContent": "An abstract class cannot have non-abstract methods."
+        },
+        {
+          "correct": false,
+          "answerContent": "A class must be qualified as ‘abstract’ class, if it contains one abstract method."
+        },
+        {
+          "correct": false,
+          "answerContent": "None of the above"
+        }
+      ]
+    }
+  ]
+}
+}
