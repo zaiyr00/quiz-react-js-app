@@ -1,0 +1,252 @@
+{
+  "title": {
+  "questions": [
+    {
+      "questionContent": "The default value of a static integer variable of a class in Java is",
+      "answers": [
+        {
+          "correct": true,
+          "answerContent": "0"
+        },
+        {
+          "correct": false,
+          "answerContent": "1"
+        },
+        {
+          "correct": false,
+          "answerContent": "Garbage value"
+        },
+        {
+          "correct": false,
+          "answerContent": "Null"
+        },
+        {
+          "correct": false,
+          "answerContent": "-1"
+        }
+      ]
+    },
+    {
+      "questionContent": "Multiple inheritance means",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "more classes inheriting from one super class"
+        },
+        {
+          "correct": true,
+          "answerContent": "one class inheriting from more super classes"
+        },
+        {
+          "correct": false,
+          "answerContent": "more classes inheriting from more super classes"
+        },
+        {
+          "correct": false,
+          "answerContent": "None of the above"
+        }
+      ]
+    },
+    {
+      "questionContent": "Which statement is not true in java language?",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "A public member of a class can be accessed in all the packages."
+        },
+        {
+          "correct": true,
+          "answerContent": "A private member of a class cannot be accessed by the methods of the same class."
+        },
+        {
+          "correct": false,
+          "answerContent": "A private member of a class cannot be accessed from its derived class."
+        },
+        {
+          "correct": false,
+          "answerContent": "A protected member of a class can be accessed from its derived class."
+        },
+        {
+          "correct": false,
+          "answerContent": "None of the above"
+        }
+      ]
+    },
+    {
+      "questionContent": "To prevent any method from overriding, we declare the method as",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "static"
+        },
+        {
+          "correct": false,
+          "answerContent": "const"
+        },
+        {
+          "correct": true,
+          "answerContent": "final"
+        },
+        {
+          "correct": false,
+          "answerContent": "abstract"
+        },
+        {
+          "correct": false,
+          "answerContent": "None of the above"
+        }
+      ]
+    },
+    {
+      "questionContent": "Which one of the following is not true?",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "A class containing abstract methods is called an abstract class."
+        },
+        {
+          "correct": false,
+          "answerContent": "Abstract methods should be implemented in the derived class."
+        },
+        {
+          "correct": true,
+          "answerContent": "An abstract class cannot have non-abstract methods."
+        },
+        {
+          "correct": false,
+          "answerContent": "A class must be qualified as ‘abstract’ class, if it contains one abstract method."
+        },
+        {
+          "correct": false,
+          "answerContent": "None of the above"
+        }
+      ]
+    },
+    {
+      "questionContent": "When an overridden method is called from within a subclass, it will always refer to the version of that method defined by the",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "Super class"
+        },
+        {
+          "correct": true,
+          "answerContent": "Subclass"
+        },
+        {
+          "correct": false,
+          "answerContent": "Compiler will choose randomly"
+        },
+        {
+          "correct": false,
+          "answerContent": "Interpreter will choose randomly"
+        },
+        {
+          "correct": false,
+          "answerContent": "None of the above"
+        }
+      ]
+    },
+    {
+      "questionContent": "To instantiate MyClass, you would write?",
+      "answers": [
+        {
+          "correct": true,
+          "answerContent": "MyClass mc = new MyClass();"
+        },
+        {
+          "correct": false,
+          "answerContent": "MyClass mc = MyClass();"
+        },
+        {
+          "correct": false,
+          "answerContent": "MyClass mc = MyClass;"
+        },
+        {
+          "correct": false,
+          "answerContent": "MyClass mc = new MyClass;"
+        },
+        {
+          "correct": false,
+          "answerContent": "The constructor of MyClass should be defined as, public void MyClass(){/code/}."
+        }
+      ]
+    },
+    {
+      "questionContent": "A constructor",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "Must have the same name as the class it is declared within."
+        },
+        {
+          "correct": false,
+          "answerContent": "Is used to create objects."
+        },
+        {
+          "correct": false,
+          "answerContent": "May be declared private"
+        },
+        {
+          "correct": false,
+          "answerContent": "Both (A) and (B) above"
+        },
+        {
+          "correct": true,
+          "answerContent": "(a), (b) and (c) above."
+        }
+      ]
+    },
+    {
+      "questionContent": "Which of the following is true?",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "A finally block is executed before the catch block but after the try block."
+        },
+        {
+          "correct": false,
+          "answerContent": "A finally block is executed, only after the catch block is executed."
+        },
+        {
+          "correct": true,
+          "answerContent": "A finally block is executed whether an exception is thrown or not."
+        },
+        {
+          "correct": false,
+          "answerContent": "A finally block is executed, only if an exception occurs."
+        },
+        {
+          "correct": false,
+          "answerContent": "None of the above."
+        }
+      ]
+    },
+    {
+      "questionContent": "The fields in an interface are implicitly specified as,",
+      "answers": [
+        {
+          "correct": false,
+          "answerContent": "static only"
+        },
+        {
+          "correct": false,
+          "answerContent": "protected"
+        },
+        {
+          "correct": false,
+          "answerContent": "private"
+        },
+        {
+          "correct": true,
+          "answerContent": "both static and final"
+        },
+        {
+          "correct": false,
+          "answerContent": "None of the above."
+        }
+      ]
+    }
+  ]
+}
+}

@@ -12,3 +12,12 @@ export const questionsAPI = {
                 .then(response => response.data);
     }
 }
+
+export const authenticateAPI = {
+    postUserData() {
+        return axiosInstance
+            .post(
+                'authenticate')
+                .then(response => response.data)
+    }
+}
