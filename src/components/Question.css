@@ -7,16 +7,16 @@ html {
 	box-sizing: border-box;
 }
 body {
-    background: #54e0c7;
-    height: 100vh;
+	background: #54e0c7;
+	height: 100vh;
 }
 
 .inputGroup {
 	background-color: #fff;
 	display: block;
-	margin: 50px auto;
-    position: relative;
-    /* width: 750px; */
+	margin: 0 auto;
+	position: relative;
+	/* width: 750px; */
 }
 .inputGroup label {
 	padding: 12px 30px;
@@ -99,15 +99,14 @@ code {
 	background-color: #9aa3ac;
 	padding: 0 8px;
 }
-/* li:hover {
-    color: #5562eb;
-    font-weight: 900;
-} */
+.subtitle {
+	margin-top: 30px;
+}
 
+.button{
+	margin-top: 10px;
+}
 
-  ol li {
-    list-style-type: none;
-  }
-
-
-  
+ol li {
+	list-style-type: none;
+}

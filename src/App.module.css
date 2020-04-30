@@ -6,34 +6,35 @@ body {
   margin: 0;
   color: white;
 }
-.subscribe-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.subscribe_box {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #2bb24c;
   height: 100vh;
   font-family: 'Gothic A1', serif;
   padding: 15em 0;
   text-align: center;
 }
-.subscribe-box h2 {
+.subscribe_box h2 {
   margin: 0 0 0.85em 0;
   font-weight: 100;
   font-size: 30px;
   font-family: 'Marcellus', serif;
 }
-.subscribe-box h3 {
+.subscribe_box h3 {
     margin: 0 0 0.85em 0;
     font-weight: 100;
     font-size: 20px;
     font-family: 'Marcellus', serif;
   }
-.subscribe-box .subscribe {
+.subscribe_box .subscribe {
   width: 100%;
   max-width: 600px;
   margin: auto;
 }
-.subscribe-box .subscribe input {
+.subscribe_box .subscribe input {
   width: 100%;
   background: transparent;
   border: 0;
@@ -47,10 +48,10 @@ body {
   color: inherit;
   outline: none;
 }
-.subscribe-box .subscribe input::placeholder {
+.subscribe_box .subscribe input::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-.subscribe-box .subscribe button {
+.subscribe_box .subscribe button {
   all: unset;
   margin-top: 2.4em;
   background: transparent;
@@ -63,18 +64,18 @@ body {
   position: relative;
   transition: all 300ms ease;
 }
-.subscribe-box .subscribe button span {
+.subscribe_box .subscribe button span {
   display: inline-block;
   transition: all 300ms ease;
 }
-.subscribe-box .subscribe button:before, .subscribe-box .subscribe button:after {
+.subscribe_box .subscribe button:before, .subscribe_box .subscribe button:after {
   content: "";
   display: block;
   position: absolute;
   transition: all 300ms ease;
   opacity: 0;
 }
-.subscribe-box .subscribe button:before {
+.subscribe_box .subscribe button:before {
   height: 7px;
   width: 7px;
   background: transparent;
@@ -84,21 +85,33 @@ body {
   top: 21px;
   transform: rotate(45deg);
 }
-.subscribe-box .subscribe button:after {
+.subscribe_box .subscribe button:after {
   background: white;
   height: 2px;
   width: 50px;
   left: 0;
   top: 1.49em;
 }
-.subscribe-box .subscribe button:hover span {
+.subscribe_box .subscribe button:hover span {
   transform: translateX(-10px);
 }
-.subscribe-box .subscribe button:hover:before {
+.subscribe_box .subscribe button:hover:before {
   opacity: 1;
 }
-.subscribe-box .subscribe button:hover:after {
+.subscribe_box .subscribe button:hover:after {
   width: 14px;
   opacity: 1;
   transform: translateX(115px);
+}
+
+.btn_admin{
+  font-family: 'Marcellus', serif;
+  margin-top: 20px;
+  color: red;
+}
+
+.btn_admin:hover{
+  font-family: 'Marcellus', serif;
+  margin-top: 20px;
+  color: red;
 }

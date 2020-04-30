@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import styles from './App.module.css';
 import {Redirect} from 'react-router-dom';
 
 class App extends React.Component {
@@ -22,15 +22,21 @@ class App extends React.Component {
     window.location = '/quiz';
   }
 
+  handleAdminSubmit(event){
+    event.preventDefault();
+    window.location = "/login";
+  }
+
   render() {
     return (
-      <div class="subscribe-box">
+      <div className={styles.subscribe_box}>
         <h2>Welcome to the Java Quiz</h2>
         <h3>created by Zaiyr Sharsheev</h3>
-        <form class="subscribe" onSubmit={this.handleSubmit}>
+        <form className={styles.subscribe} onSubmit={this.handleSubmit}>
           <input type="text" placeholder="Your name or nickname" autocomplete="off" required="required" value={this.state.value} onChange={this.handleChange}/>
           <button type="submit"> <span>Start</span></button>
         </form>
+        <a onClick={this.handleAdminSubmit} className={styles.btn_admin}>Are you admin?</a>
     </div>
     );
   }
