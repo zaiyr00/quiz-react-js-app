@@ -93,7 +93,7 @@ class SignInForm extends Component {
 							value="Log in"
 							id="input_submit"
 							className="input_field"
-							onClick={() => this.props.checkingPasswordAndLogin}
+							onClick={() => this.checkingPasswordAndLogin}
 						/>
 					</div>
 				</form>
