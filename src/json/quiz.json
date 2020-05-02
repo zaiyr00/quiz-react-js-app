@@ -43,7 +43,7 @@
         },
         {
           "correct": false,
-          "answerContent": "None of the above"
+          "answerContent": "None of them"
         }
       ]
     },
@@ -68,7 +68,7 @@
         },
         {
           "correct": false,
-          "answerContent": "None of the above"
+          "answerContent": "None of them"
         }
       ]
     },
@@ -93,7 +93,7 @@
         },
         {
           "correct": false,
-          "answerContent": "None of the above"
+          "answerContent": "None of them"
         }
       ]
     },
@@ -118,7 +118,7 @@
         },
         {
           "correct": false,
-          "answerContent": "None of the above"
+          "answerContent": "None of them"
         }
       ]
     },
@@ -143,7 +143,7 @@
         },
         {
           "correct": false,
-          "answerContent": "None of the above"
+          "answerContent": "None of them"
         }
       ]
     },
@@ -173,27 +173,27 @@
       ]
     },
     {
-      "questionContent": "A constructor",
+      "questionContent": "Which of these class is super class of every class in Java?",
       "answers": [
         {
           "correct": false,
-          "answerContent": "Must have the same name as the class it is declared within."
-        },
-        {
-          "correct": false,
-          "answerContent": "Is used to create objects."
-        },
-        {
-          "correct": false,
-          "answerContent": "May be declared private"
-        },
-        {
-          "correct": false,
-          "answerContent": "Both (A) and (B) above"
+          "answerContent": "String class"
         },
         {
           "correct": true,
-          "answerContent": "(a), (b) and (c) above."
+          "answerContent": "Object class"
+        },
+        {
+          "correct": false,
+          "answerContent": "Abstract class"
+        },
+        {
+          "correct": false,
+          "answerContent": "None of them"
+        },
+        {
+          "correct": false,
+          "answerContent": "ArrayList class"
         }
       ]
     },
@@ -218,7 +218,7 @@
         },
         {
           "correct": false,
-          "answerContent": "None of the above."
+          "answerContent": "None of them"
         }
       ]
     },
@@ -243,7 +243,7 @@
         },
         {
           "correct": false,
-          "answerContent": "None of the above."
+          "answerContent": "None of them"
         }
       ]
     }

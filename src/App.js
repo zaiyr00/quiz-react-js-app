@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './App.module.css';
-import {Redirect} from 'react-router-dom';
 
 class App extends React.Component {
 

@@ -14,7 +14,7 @@ const Question = (props) => {
           {' '}
           <label htmlFor="radio" htmlFor={`question_${props.index}_answer_${i}`}>{answer.answerContent}</label>
         </li>
-      )}
+      )} 
       </ol>
       <button className="button is-primary is-inverted is-outlined is-rounded is-fullwidth"  onClick={props.onSubmit}>Next</button>
         
