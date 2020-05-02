@@ -154,7 +154,7 @@ body{
 
 /* ------------------------- */
 :root{
-  --primary-color: #0D6FFA;
+  --primary-color: #2BB24C;
   --text-color: rgba(0,0,0,0.65);
   --light-color: #ffffff;
   --elevation-1: 0px 1px 4px rgba(0, 0, 0, 0.08), 0px 1px 2px rgba(0, 0, 0, 0.12);
@@ -246,12 +246,12 @@ body{
 .as-choice-card:hover{
   --text-color: #FFFFFF;
   --primary-color: #ffffff;
-  --light-color: #0D6FFA;
+  --light-color: #2BB24C;
   
   color: var(--text-color);
 }
 .as-choice-card:hover:after{
-  --primary-color: #0D6FFA;
+  --primary-color: #2BB24C;
   
   width:100%;
 }

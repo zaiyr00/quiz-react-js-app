@@ -105,7 +105,7 @@ export default class Modal extends React.Component {
   modalContent = () => {
       return(
         <div className="modal">
-            <h1>Create your question</h1>
+            <h1>Create your question and check the correct one</h1>
           <div className="modal-section">
             <form className="question-section" onClick={this.handleSubmit}>
                 <input className="option" type="text" name="question" value={this.state.question} onChange={this.handleChange} placeholder="Question" required/>

@@ -1,5 +1,5 @@
 .modal {
-    position: relative;
+    position: fixed;
 	display: flex;
 	margin: 0 auto;
 	margin-top: 15%;
@@ -23,7 +23,8 @@
 }
 
 .modal h1 {
-    font-size: 24px;
+	font-size: 18px;
+	font-weight: 800;
 }
 
 .modal-section {
@@ -59,10 +60,14 @@ input[name="question"]{
 .checkbox-section {
 	display: flex;
 	flex-direction: column;
+	margin-top: 60px;
+	margin-left: 10px;
 }
 
 input[type="checkbox"] {
 	margin-top: 20px;
+	width: 40px;
+	height: 40px;
 }
 
 input[type=submit] {
@@ -78,3 +83,5 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
   }
+
+  
