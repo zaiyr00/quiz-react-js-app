@@ -108,7 +108,7 @@ export default class AdminPanel extends React.Component{
         <span className="icon-bar"></span>
         <span className="icon-bar"></span>
       </button>
-      <a className="navbar-brand" href="/">Admin Panel</a>
+      <a className="navbar-brand">Admin Panel</a>
     </div>
     <div className="collapse navbar-collapse">
       <ul className="nav navbar-nav navbar-right">
@@ -123,14 +123,14 @@ export default class AdminPanel extends React.Component{
   <div className="col-md-3">
 
     <div id="sidebar">
-      <div className="container-fluid tmargin">
+      {/* <div className="container-fluid tmargin">
         <div className="input-group">
           <input type="text" className="form-control" placeholder="Search..." />
           <span className="input-group-btn">
               <button className="btn btn-default"><span className="glyphicon glyphicon-search"></span></button>
           </span>
         </div>
-      </div>
+      </div> */}
 
       <ul className="nav navbar-nav side-bar">
         <li className="side-bar tmargin"><a href="#"><span className="glyphicon glyphicon-list">&nbsp;</span>Dashboard</a></li>

@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import {BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
-import Quiz from './components/Quiz';
+import Quiz from './components/Quiz/Quiz';
 import SignInForm from './components/SignInForm/SignInForm';
 import AdminPanel from './components/Admin/AdminPanel'
 

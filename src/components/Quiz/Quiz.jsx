@@ -1,9 +1,9 @@
 import React from 'react'
-import { questionsAPI } from '../api/api';
 
-import Question from './Question'
-import './Question.css'
+import Question from './Question/Question'
+import './Question/Question.css'
 
+const API = 'https://quiz-spring-boot-app.herokuapp.com/questions/'
 
 export default class Quiz extends React.Component {
 
@@ -18,7 +18,8 @@ export default class Quiz extends React.Component {
   }
 
   componentDidMount() {
-    questionsAPI.getQuestions()
+    fetch(API)
+		  .then(response => response.json())
       .then(result => {
         console.log(result)
         this.setState({quiz: result})
@@ -45,6 +46,11 @@ export default class Quiz extends React.Component {
                 parseInt(event.target.value),
                 ...this.state.answers.slice(this.state.index + 1)]
     this.setState({'answers': list})
+  }
+
+  logOut = () => {
+    localStorage.removeItem('name');
+    window.location.replace('/');
   }
 
   render() {
@@ -76,6 +82,7 @@ export default class Quiz extends React.Component {
             <p className="title has-text-centered is-6">Congratulation, {this.state.name}! You have finished the Java Quiz!</p>
             Your score is <strong>{score}</strong>
             <button className="button is-primary is-inverted is-outlined is-rounded is-fullwidth" onClick={() => window.location.reload(false)}>Try again?</button>
+            <button className="button is-primary is-inverted is-outlined is-rounded is-fullwidth" onClick={() => this.logOut()}>Exit</button>
           </div>
           
         </>
